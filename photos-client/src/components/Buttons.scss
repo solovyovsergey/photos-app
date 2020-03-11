@@ -1,0 +1,31 @@
+.buttons {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  &__button {
+    border-radius: 50%;
+    background-color: #161617b5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: 1px solid white;
+    cursor: pointer;
+    outline: none;
+
+    &--disabled {
+      background-color: white;
+      color: #161617b5;
+      border: 1px solid #161617b5;
+    }
+  }
+}

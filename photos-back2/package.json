@@ -1,0 +1,8 @@
+{
+    "name": "photos-back2",
+    "version": "1.0.0",
+    "dependencies": {
+        "express": "4.17.1",
+        "mongodb": "3.4.1"
+    }
+}

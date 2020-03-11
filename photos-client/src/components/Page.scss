@@ -1,0 +1,33 @@
+.page {
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  &__content {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      vertical-align: middle;
+      height: 600px;
+      border-radius: 10px;
+      border: solid 10px black;
+      padding: 20px;
+      background: darkgrey;
+      margin: 10px;
+    }
+  }
+
+  &__placeholder {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      vertical-align: middle;
+      padding: 20px;
+      margin: 10px;
+    }
+  }
+}
